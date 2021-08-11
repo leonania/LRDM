@@ -1,6 +1,7 @@
 {
   "name": "root",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,10 +10,8 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12"
-  },
-  "description": ""
+  }
 }
