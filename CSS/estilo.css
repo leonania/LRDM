@@ -148,6 +148,9 @@ main h5 {
 .imagenprincipal {
   margin-top: 15px; }
 
+.distanciacontacto {
+  margin-top: 1cm; }
+
 /*Tablas de plan de viandas*/
 .pdv {
   background-color: #FEC89A; }
@@ -343,6 +346,9 @@ main h5 {
 
 .imagenprincipal {
   margin-top: 15px; }
+
+.distanciacontacto {
+  margin-top: 1cm; }
 
 /*Seccion PASTELERIA*/
 .bodyPasteleria {
