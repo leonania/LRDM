@@ -151,6 +151,9 @@ main h5 {
 .distanciacontacto {
   margin-top: 1cm; }
 
+.backgroundtextpdv {
+  background-color: #FFD7BA; }
+
 /*Tablas de plan de viandas*/
 .pdv {
   width: 100%;
@@ -209,6 +212,32 @@ main h5 {
 
 .viandas ul {
   margin-left: 30px; }
+
+.viandas2 {
+  margin-top: 50px;
+  margin-left: 130px;
+  margin-right: 60px; }
+
+.viandas2 h1 {
+  font-size: 30px; }
+
+.viandas2 h2 {
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 2px; }
+
+.viandas2 ul {
+  margin-left: 30px; }
+
+.viandas2 div img {
+  width: 440px;
+  height: 550px; }
+
+.margenimgtext2 {
+  margin-left: 50px; }
+
+.backgroundtextpdv {
+  background-color: #FFD7BA; }
 
 /*Fin tablas de plan de viandas*/
 /*Seccion Contacto*/
@@ -373,6 +402,9 @@ main h5 {
 
 .distanciacontacto {
   margin-top: 1cm; }
+
+.backgroundtextpdv {
+  background-color: #FFD7BA; }
 
 /*Seccion PASTELERIA*/
 .bodyPasteleria {
@@ -573,57 +605,6 @@ main h5 {
   height: 415px; }
 
 /*FIN Diseño all imagenes*/
-/* MEDIAS QUERIES */
-/* Vista Celular */
-@media only screen and (min-width: 0px) and (max-width: 600px) {
-  * {
-    margin: 0px;
-    padding: 0px; }
-  .menuPrincipal ul {
-    font-size: small;
-    margin-left: 40px;
-    margin-top: 10px;
-    justify-content: center;
-    display: flex; }
-  .imgChango2 {
-    visibility: hidden;
-    display: none; }
-  .imgPrincipal {
-    visibility: hidden;
-    display: none; }
-  .menuPrincipal {
-    font-size: small; }
-  #titulo__principal--diseño {
-    font-size: medium;
-    margin-top: 10px;
-    margin-bottom: 20px; }
-  .footer__info {
-    margin-top: 20px; }
-  main h5 {
-    font-size: 5px; } }
-
-/* VISTA TABLET */
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-  * {
-    margin: 0px;
-    padding: 0px; }
-  #titulo__principal--diseño {
-    font-size: larger;
-    margin-bottom: 15px; }
-  .menuPrincipal {
-    margin-top: 15px;
-    font-size: large; }
-  .imgChango2 {
-    justify-self: center;
-    width: 50px;
-    height: 50px; }
-  .imgPrincipal {
-    width: 50px;
-    height: 50px;
-    justify-self: center; }
-  .imgMain {
-    margin-bottom: 10px; } }
-
 * {
   margin: 0;
   padding: 0; }

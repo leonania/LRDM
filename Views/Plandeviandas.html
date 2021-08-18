@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plan De Viandas</title>
     <meta name="description" content="Crea tu propio plan de viandas a medida y recibilo en tu domicilio: vegano, light, gourmet, economico y muchos mas... ">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/estilo.css">
 </head>
@@ -58,7 +59,8 @@
       <div class="col-lg-12">
             <img src="../Images/viandas/principalviandas.jpg" class="d-block w-100 " alt="...">
     
-            <div class="carousel-caption d-none d-md-block textocarousel">
+            <div class="carousel-caption d-none d-md-block textocarousel" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
               <h1>PLAN DE VIANDAS</h1>
               <p>Some representative placeholder content for the first slide.</p>
             </div>
@@ -70,12 +72,12 @@
 
 
     <div class="row viandas">
-      <div class="col-lg-6" >
-        <img src="../Images/viandas/viandasgurmet.jpg" id="imagenviandas">
+      <div class="col-lg-6" data-aos="fade-right" >
+        <img src="../Images/viandas/viandasgurmet.jpg" class="">
       </div>
 
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 backgroundtextpdv ">
           <h1>VIANDAS GOURMET</h1>
           <H2>Esas comidas que te encanta comer, pero no cocinar. Más ricas de lo que podés imaginar.</H2> <br>
 
@@ -87,7 +89,7 @@
             <ul>
               <li>Pastel de papa.</li>
               
-            <li>Canelones de ricota y espinaca </li>
+            <li>Milanesa con papas a la española </li>
 
             <li>Costillitas de cerdo </li>
             </ul>
@@ -95,10 +97,105 @@
 
     </div>
 
+
+
+
+    <div class="row viandas2">
+     
+
+        <div class="col-lg-6 backgroundtextpdv viandas2bis">
+          <h1>VIANDAS LIGHT</h1>
+          <H2>¿Quién dijo que para cuidarse hay que pasar hambre? Una alternativa liviana y rica para tus comidas.</H2> <br>
+
+          <h2> Encontrá los platos bajos en calorías más deliciosos, con una selección de ingredientes naturales que te ofrecen la posibilidad de disfrutar mientras cuidas tu figura.</h2> <br>
+            
+           <h2>Nuestro menú saludable de Viandas Light es ideal para quienes buscan llevar una vida sana pero no tienen tiempo ni ganas de pasar horas en la cocina.  </h2> <br>
+            
+           <h2>Elegí tus platos light favoritos: :</h2>
+
+
+            <ul>
+                <li>Mini tarta de zapallito.</li>             
+                <li>Canelones de ricota y espinaca </li>
+                <li>Risoto de hongos</li>
+            </ul>
+        </div>
+
+
+        <div class="col-lg-6" data-aos="fade-left" >
+          <img src="../Images/viandas/viandaslight.jpg" class="margenimgtext2">
+        </div>
+  
+
+    </div>
+
+
+    <div class="row viandas">
+      <div class="col-lg-6" data-aos="fade-right" >
+        <img src="../Images/viandas/viandasveganas.jpg" class="">
+      </div>
+
+
+        <div class="col-lg-6 backgroundtextpdv">
+          <h1>VIANDAS VEGANAS</h1>
+          <H2>Para quienes eligen una alimentación vegetariana o vegana, tanto por conciencia ambiental, protección de los animales o simplemente por gusto.</H2> <br>
+
+          <h2> Platos a base de vegetales frescos y nutritivos, diseñados para aportar una proporción correcta de macro y micronutrientes, priorizando alimentos fuente de proteína vegetal.</h2> <br>
+            
+           <h2>Si buscás comidas vegetarianas saludables, encontrá una solución rica y súper fácil en nuestras Viandas Veggie.</h2> <br>
+            
+           <h2>Elegi tus platos Veggie favoritos :</h2>
+            <ul>
+              <li>Guiso de lentejas veggie.</li>
+              
+            <li>Pastel de calabaza con base de lentejas</li>
+
+            <li>Omelette de espinaca </li>
+            </ul>
+        </div>
+
+    </div>
+
+
     
+    <div class="row viandas2">
+     
+
+      <div class="col-lg-6 backgroundtextpdv">
+        <h1>VIANDAS KIDS</h1>
+        <H2>¿Te preocupa que la alimentación de tus hijos sea balanceada? ¿Estás buscando una comida saludable para los más chicos porque querés evitar los ultraprocesados?</H2> <br>
+
+        <h2> Nuestras viandas saludables para niños vienen a resolverte todos los problemas.</h2> <br>
+          
+         <h2>Ofreceles platos deliciosos, nutritivos y muy prácticos de comida real, con los sabores que a ellos les encantan, para que crezcan fuertes y sanos.  </h2> <br>
+          
+         <h2>Elegí tus platos KIDS favoritos: :</h2>
+
+
+          <ul>
+              <li>Pechuguitas rellenas de jamón y queso con arroz.</li>             
+              <li>Milanesitas de pollo con papas fritas </li>
+              <li>Pollito al horno con bombas de papa</li>
+          </ul>
+      </div>
+
+
+      <div class="col-lg-6" data-aos="fade-left" >
+        <img src="../Images/viandas/viandaschicos.jpg" class="margenimgtext2">
+      </div>
+
+
+  </div>
+
+
+
  
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+     AOS.init();
+ </script>
 </body>
 </html>
