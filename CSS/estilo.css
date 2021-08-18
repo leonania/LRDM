@@ -136,7 +136,7 @@ main h5 {
 .botoninicio {
   text-align: center;
   margin-left: 16,cm;
-  margin-bottom: 50px; }
+  margin-bottom: 10px; }
 
 .imagenprincipal img {
   height: 620px;
@@ -150,9 +150,6 @@ main h5 {
 
 .distanciacontacto {
   margin-top: 1cm; }
-
-.backgroundtextpdv {
-  background-color: #FFD7BA; }
 
 /*Tablas de plan de viandas*/
 .pdv {
@@ -388,7 +385,7 @@ main h5 {
 .botoninicio {
   text-align: center;
   margin-left: 16,cm;
-  margin-bottom: 50px; }
+  margin-bottom: 10px; }
 
 .imagenprincipal img {
   height: 620px;
@@ -402,9 +399,6 @@ main h5 {
 
 .distanciacontacto {
   margin-top: 1cm; }
-
-.backgroundtextpdv {
-  background-color: #FFD7BA; }
 
 /*Seccion PASTELERIA*/
 .bodyPasteleria {
@@ -567,7 +561,8 @@ main h5 {
 
 /*Fin Diseño Footer*/
 .probandofooter {
-  background-color: #FFD7BA !important; }
+  background-color: #FFD7BA !important;
+  margin-top: 120px; }
 
 .distanciafooter {
   margin-bottom: 2cm; }
