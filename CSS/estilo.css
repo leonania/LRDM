@@ -506,7 +506,53 @@ main h5 {
   width: 220px;
   height: 250px; }
 
+.probandocentrar {
+  text-align: center !important; }
+
 /*Fin Seccion Salado*/
+.ratings i {
+  font-size: 16px;
+  color: red; }
+
+.strike-text {
+  color: red;
+  text-decoration: line-through; }
+
+.product-image {
+  width: 100%; }
+
+.dot {
+  height: 7px;
+  width: 7px;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 3px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block; }
+
+.spec-1 {
+  color: #938787;
+  font-size: 15px; }
+
+h5 {
+  font-weight: 400; }
+
+.para {
+  font-size: 16px; }
+
+.pruebabackground2 {
+  background-color: #f7f7f7 !important;
+  border: 1px solid grey !important;
+  margin-bottom: 50px; }
+
+.centrolateralderecho {
+  text-align: center !important; }
+
+.centrolateralderecho div h4 {
+  margin-left: 65px;
+  margin-top: 35px; }
+
 /*Seccion EVENTOS*/
 .bodyEventos {
   background-color: #FEC89A; }
@@ -565,7 +611,7 @@ main h5 {
   margin-top: 120px; }
 
 .distanciafooter {
-  margin-bottom: 2cm; }
+  margin-bottom: 1cm; }
 
 .tamañoredes li {
   margin-top: 10px;
