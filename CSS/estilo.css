@@ -153,9 +153,6 @@ main h5 {
 
 /*Tablas de plan de viandas*/
 .pdv {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   background-color: #FEC89A; }
 
 .pdv article {

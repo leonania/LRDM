@@ -1,10 +1,9 @@
 @import "variables";
 
 /*Tablas de plan de viandas*/
-.pdv{    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+.pdv{   
     background-color:#FEC89A;
+   
 }
 .pdv article{border:solid 1px black;
     text-align: center;
@@ -14,6 +13,7 @@
     font-size: small;
 
 }
+
 
 .prueba1{display: flex;
     flex-direction: row;
