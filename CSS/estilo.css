@@ -541,6 +541,26 @@ h5 {
 .para {
   font-size: 16px; }
 
+.img-fluidd {
+  background-image: url(../Images/viandas/principalviandas.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 620px;
+  width: 1400px; }
+
+.tuneandotexto h1 {
+  color: white;
+  text-align: justify;
+  margin: auto; }
+
+.colortexto h2 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin: auto;
+  margin-top: 6cm; }
+
 .pruebabackground2 {
   background-color: #f7f7f7 !important;
   border: 1px solid grey !important;
