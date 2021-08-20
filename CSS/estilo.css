@@ -151,6 +151,26 @@ main h5 {
 .distanciacontacto {
   margin-top: 1cm; }
 
+.img-fluidd {
+  background-image: url(../Images/viandas/principalviandas.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 620px;
+  width: 1400px; }
+
+.tuneandotexto h1 {
+  color: white;
+  text-align: justify;
+  margin: auto; }
+
+.colortexto h2 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin: auto;
+  margin-top: 6cm; }
+
 /*Tablas de plan de viandas*/
 .pdv {
   background-color: #FEC89A; }
@@ -397,6 +417,26 @@ main h5 {
 .distanciacontacto {
   margin-top: 1cm; }
 
+.img-fluidd {
+  background-image: url(../Images/viandas/principalviandas.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 620px;
+  width: 1400px; }
+
+.tuneandotexto h1 {
+  color: white;
+  text-align: justify;
+  margin: auto; }
+
+.colortexto h2 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin: auto;
+  margin-top: 6cm; }
+
 /*Seccion PASTELERIA*/
 .bodyPasteleria {
   background-color: #FEC89A; }
@@ -462,9 +502,6 @@ main h5 {
   background-color: #FFD7BA;
   text-align: center;
   font-size: 25px; }
-
-.bodySalado h2 {
-  font-size: 18px; }
 
 .bodySalado h3 {
   font-size: 15px; }
@@ -537,26 +574,6 @@ h5 {
 
 .para {
   font-size: 16px; }
-
-.img-fluidd {
-  background-image: url(../Images/viandas/principalviandas.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 620px;
-  width: 1400px; }
-
-.tuneandotexto h1 {
-  color: white;
-  text-align: justify;
-  margin: auto; }
-
-.colortexto h2 {
-  font-size: 40px;
-  color: white;
-  text-align: center;
-  margin: auto;
-  margin-top: 6cm; }
 
 .pruebabackground2 {
   background-color: #f7f7f7 !important;
@@ -654,6 +671,16 @@ h5 {
 .tamañoredes li img {
   width: 30px;
   height: 30px; }
+
+.card2 img {
+  width: 200px !important;
+  height: 205px !important;
+  display: block;
+  margin-top: 20px; }
+
+.card2 {
+  margin-left: 40px;
+  margin-right: 15000px; }
 
 .imgcarru h6 {
   text-align: center; }

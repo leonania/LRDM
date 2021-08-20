@@ -26,6 +26,7 @@
     border: 2px double $degradadoletras ;
   margin-top: 10px;
   margin-bottom: 10px;
+
 }
 
 
@@ -75,6 +76,7 @@ main h5{font-size: 40px;}
 
 .distancianav{margin-right: 7.3cm;
 }
+
 
 
 .probandox{transform: translate(-15px);}
@@ -180,4 +182,26 @@ background-color: $degradadoletras;}
 
 .distanciacontacto {margin-top: 1cm;}
 
+
+// DISEÑO IMAGENES CAROUSEL PRINCIPAL
+
+.img-fluidd{
+    background-image: url(../Images/viandas/principalviandas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px; 
+    width: 1400px; 
+}
+
+.tuneandotexto h1{ color: white;
+text-align: justify;
+margin:auto;}
+
+.colortexto h2 {font-size: 40px;
+    color: white;
+    text-align: center;
+    margin:auto;
+    margin-top: 6cm;
+}
 
