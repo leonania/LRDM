@@ -20,8 +20,8 @@
 }
 
 .comidaPasteleria img{
- width: 150px;
- height: 150px;
+ width: 200px;
+ height: 200px;
 }
 
 
@@ -66,5 +66,18 @@
 }
 
 
+.img-fluid4{
+    background-image: url(../Images/principasteleria.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px; 
+    width: 1400px; 
+}
+
+
 /*FIN Seccion PASTELERIA*/
 
+.card {background-color: #f7f7f7!important;
+    border: 1px solid grey !important;
+margin-top: 50px;}

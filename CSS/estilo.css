@@ -151,7 +151,7 @@ main h5 {
 .distanciacontacto {
   margin-top: 1cm; }
 
-.img-fluidd {
+.img-fluid1 {
   background-image: url(../Images/viandas/principalviandas.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -206,52 +206,47 @@ main h5 {
   margin-top: 10px;
   margin-bottom: 50px; }
 
-.viandas div img {
-  width: 440px;
-  height: 550px; }
-
 .viandas {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 100px;
-  margin-right: 150px; }
+  margin-top: 40px; }
+
+.viandas2 {
+  margin-top: 40px; }
 
 .viandas h1 {
-  font-size: 30px; }
+  font-size: 25px; }
 
 .viandas h2 {
-  font-size: 20px;
+  font-size: 15px;
   line-height: 28px;
   letter-spacing: 2px; }
 
 .viandas ul {
   margin-left: 30px; }
 
-.viandas2 {
-  margin-top: 50px;
-  margin-left: 130px;
-  margin-right: 60px; }
-
 .viandas2 h1 {
-  font-size: 30px; }
+  font-size: 25px; }
 
 .viandas2 h2 {
-  font-size: 20px;
+  font-size: 15px;
   line-height: 28px;
   letter-spacing: 2px; }
 
 .viandas2 ul {
   margin-left: 30px; }
 
-.viandas2 div img {
-  width: 440px;
-  height: 550px; }
-
 .margenimgtext2 {
   margin-left: 50px; }
 
 .backgroundtextpdv {
   background-color: #FFD7BA; }
+
+.img-fluid2 {
+  background-image: url(../Images/principalX.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 620px;
+  width: 1400px; }
 
 /*Fin tablas de plan de viandas*/
 /*Seccion Contacto*/
@@ -417,7 +412,7 @@ main h5 {
 .distanciacontacto {
   margin-top: 1cm; }
 
-.img-fluidd {
+.img-fluid1 {
   background-image: url(../Images/viandas/principalviandas.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -453,8 +448,8 @@ main h5 {
   margin-top: 40px; }
 
 .comidaPasteleria img, .comidaPasteleria2 img {
-  width: 150px;
-  height: 150px; }
+  width: 200px;
+  height: 200px; }
 
 .pasteleria1 {
   color: #7E7F9A;
@@ -492,7 +487,20 @@ main h5 {
   display: block;
   background-color: #FFD7BA !important; }
 
+.img-fluid4 {
+  background-image: url(../Images/principasteleria.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 620px;
+  width: 1400px; }
+
 /*FIN Seccion PASTELERIA*/
+.card {
+  background-color: #f7f7f7 !important;
+  border: 1px solid grey !important;
+  margin-top: 50px; }
+
 /*Seccion Salado*/
 .bodySalado {
   background-color: #FEC89A; }
@@ -574,6 +582,14 @@ h5 {
 
 .para {
   font-size: 16px; }
+
+.img-fluid3 {
+  background-image: url(../Images/imagenprincipalfondo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 620px;
+  width: 1400px; }
 
 .pruebabackground2 {
   background-color: #f7f7f7 !important;
@@ -690,6 +706,10 @@ h5 {
   height: 415px; }
 
 /*FIN Diseño all imagenes*/
+@media only screen and (min-width: 992px) {
+  .viandas div img {
+    margin-left: 1cm; } }
+
 * {
   margin: 0;
   padding: 0; }
