@@ -234,9 +234,6 @@ main h5 {
 .viandas2 ul {
   margin-left: 30px; }
 
-.margenimgtext2 {
-  margin-left: 50px; }
-
 .backgroundtextpdv {
   background-color: #FFD7BA; }
 
@@ -709,6 +706,21 @@ h5 {
 @media only screen and (min-width: 992px) {
   .viandas div img {
     margin-left: 1cm; } }
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .backgroundtextpdv {
+    text-align: center;
+    margin-top: 15px; }
+  .viandas2bis {
+    margin-bottom: 15px; }
+  .viandas div img {
+    margin-left: 10px; }
+  .viandas2 div img {
+    margin-left: 10px; }
+  .tamañoredes {
+    transform: translate(-25px); }
+  .comidaPasteleria, .comidaPasteleria2 {
+    margin-left: 40px; } }
 
 * {
   margin: 0;
