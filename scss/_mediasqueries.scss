@@ -7,10 +7,17 @@
 .viandas div img{ margin-left: 1cm;}
 
 
- }
+ 
  .text-truncat{text-align: center !important;}
 
  .pruebabackground2{text-align: center !important;}
+
+ .rotandonavbar ul li {transform: translate(-90px) !important;}
+
+ .viandasmedq{margin-left: 300px;}
+
+
+}
 
 @media only screen and (min-width: 0px) and (max-width: 600px)
 {
@@ -20,7 +27,7 @@
 
 .viandas2bis {margin-bottom: 15px;}
 
-
+.rotandonavbar ul li {transform: translate(0px) !important;}
 
 .viandas div img {margin-left: 10px;}
 .viandas2 div img {margin-left: 10px;}
