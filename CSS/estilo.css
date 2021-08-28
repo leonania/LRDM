@@ -498,6 +498,23 @@ main h5 {
   border: 1px solid grey !important;
   margin-top: 50px; }
 
+.comidaPasteleria div p, .comidaPasteleria2 div p {
+  font-size: 12px; }
+
+.carousel-item img {
+  height: 300px;
+  width: 450px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px; }
+
+.textoeventos {
+  margin: auto;
+  text-align: center;
+  background-color: #FFD7BA;
+  border: 3px double #b9b8b8;
+  margin-top: 30px; }
+
 /*Seccion Salado*/
 .bodySalado {
   background-color: #FEC89A; }
