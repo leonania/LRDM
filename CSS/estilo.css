@@ -519,7 +519,8 @@ main h5 {
 
 .card-title {
   font-family: unset;
-  font-weight: 500; }
+  font-weight: 500;
+  margin-top: 10px; }
 
 /*Seccion Salado*/
 .bodySalado {
