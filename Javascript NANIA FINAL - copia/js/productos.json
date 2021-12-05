@@ -7,38 +7,38 @@
 
     {
         "id": 2,
-        "img": "Images/platos/tartafruta.jpg",
+        "img": "../Images/platos/tartafruta.jpg",
         "titulo": "TARTA FRUTAL",
         "precio": 500
     },
   
     {   "id": 3,
-        "img": "Images/platos/minirogel.jpg",
+        "img": "../Images/platos/minirogel.jpg",
         "titulo": "TORTA ROGEL",
         "precio": 600
     },
 
     {   "id": 4,
-        "img": "Images/platos/lemonpie.jpg",
+        "img": "../Images/platos/lemonpie.jpg",
         "titulo": "LEMON PIE",
         "precio": 650
     },
 
     {   "id": 5,
-        "img": "Images/platos/chescakearand.jpg",
+        "img": "../Images/platos/chescakearand.jpg",
         "titulo": "CHEESCAKE ARANDANOS",
         "precio": 450
     },
     
     {   "id": 6,
-        "img": "Images/platos/tartatofi.jpg",
+        "img": "../Images/platos/tartatofi.jpg",
         "titulo": "TORTA TOFI",
         "precio": 800
     },
     
         
     {   "id": 7,
-        "img": "Images/platos/tortaricota.jpg",
+        "img": "../Images/platos/tortaricota.jpg",
         "titulo": "TORTA DE RICOTA",
         "precio": 500
     },
@@ -46,31 +46,31 @@
    
     
         {"id": 8,
-        "img": "Images/platos/spagueti.jpg",
+        "img": "../Images/platos/spagueti.jpg",
         "titulo": "FIDEOS CON BOLOGNESA",
         "precio": 480
         },
     
         {"id": 9,
-        "img": "Images/platos/pasteldepapa.jpg",
+        "img": "../Images/platos/pasteldepapa.jpg",
         "titulo": "PASTEL DE PAPA",
         "precio": 500
         },
     
         {"id": 10,
-        "img": "Images/platos/hambur.jpg",
+        "img": "../Images/platos/hambur.jpg",
         "titulo": "HAMBURGUESA CON PURE",
         "precio": 520
         },
     
         {"id": 11,
-        "img": "Images/platos/burritos.jpg",
+        "img": "../Images/platos/burritos.jpg",
         "titulo": "BURRITOS CON PAPAS",
         "precio": 480
         },
     
         {"id": 12,
-            "img":"Images/platos/bondiola.jpg",
+            "img":"../Images/platos/bondiola.jpg",
             "titulo":"BONDIOLA CON PURE",
             "precio": 620
         
