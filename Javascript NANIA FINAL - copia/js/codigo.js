@@ -146,7 +146,7 @@ function addToCartClicked(event) {
 }
 
 
-
+//PRODUCTOS AÑADIDOS AL CARRITO 
 function addItemToShoppingCart(itemTitle, itemPrice, itemImage) {
   const elementsTitle = shoppingCartItemsContainer.getElementsByClassName(
       'shoppingCartItemTitle'

@@ -1,6 +1,6 @@
 [{
         "id": 1,
-        "img": "Images/platos/chocotorta.jpg",
+        "img": "../Images/platos/chocotorta.jpg",
         "titulo": "CHOCOTORTA",
         "precio": 350
     },
